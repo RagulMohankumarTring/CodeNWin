@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/photoContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="16dp">
+
+            <include
+                layout="@layout/top_part"
+                android:id="@+id/topPart"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="48dp" />
+
+            <include
+                layout="@layout/feelings_section"
+                android:layout_width="match_parent"
+                android:layout_height="228dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/middlePart" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/middlePart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/topPart">
+
+                <ImageView
+                    android:id="@+id/post4"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/post4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/postCaption"
+                    android:layout_width="200dp"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:text="Intoducing Amazon EMR serverless"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/post4"/>
+                <TextView
+                    android:id="@+id/link"
+                    android:text="aws.amazon.com | 2 mins read"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:paddingTop="10dp"
+                    android:textColor="#696969"
+                    android:paddingLeft="20dp"
+                    android:textSize="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/postCaption"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="128dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rectangular_circular_edge_btn"
+                    android:text="Know more"
+                    android:textColor="@color/black"
+                    app:layout_constraintStart_toEndOf="@+id/link"
+                    app:layout_constraintTop_toBottomOf="@+id/post4" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
