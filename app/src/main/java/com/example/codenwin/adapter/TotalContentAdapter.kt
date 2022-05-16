@@ -12,7 +12,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.codenwin.HomeFragment
+import com.example.codenwin.fragment.HomeFragment
 import com.example.codenwin.R
 import com.example.codenwin.mapper.ItemMapper
 import com.example.codenwin.model.CourseCapsule
@@ -96,9 +96,7 @@ class TotalContentAdapter(
             itemView.caption.text = postTopPart[position - 1].caption
             itemView.hashtag.text = postTopPart[position - 1].hashTag
             itemView.duration.text=postTopPart[position-1].hoursAgo
-            itemView.liked.text=postTopPart[position-1].likes.toString()
-            itemView.commented.text=postTopPart[position-1].comment.toString()
-            itemView.personNameLiked.text=postTopPart[position-1].likedBy
+
             itemView.heart.setOnClickListener {
                 itemView.heart.setImageResource(R.drawable.heart_filled)
             }
@@ -113,7 +111,6 @@ class TotalContentAdapter(
         }
 
         fun bind() {
-            itemView.duration.text=postTopPart[position-1].hoursAgo
             itemView.liked.text=postTopPart[position-1].likes.toString()
             itemView.commented.text=postTopPart[position-1].comment.toString()
             itemView.personNameLiked.text=postTopPart[position-1].likedBy
@@ -228,6 +225,7 @@ class TotalContentAdapter(
                 (holder as BannerViewHolder).bind()
             }
             ViewHolderType.TYPE_D.ordinal -> {
+                (holder as CourseViewHolder).bind()
                 setCourseRecyclerView(
                     (holder as CourseViewHolder).courseRecyclerView,
                     courseData

@@ -8,6 +8,7 @@
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/bottom_nav_colors.xml" value="0.1785" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/button_colour.xml" value="0.1785" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/comment.xml" value="0.1785" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/down_arrow.xml" value="0.115" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/feelings_section.xml" value="0.1805" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/heart.xml" value="0.1805" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/ic_baseline_comment_24.xml" value="0.1805" />
@@ -17,21 +18,34 @@
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/image_chat.xml" value="0.1805" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/image_folder.xml" value="0.1" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/image_home.xml" value="0.22" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/reciever_box.xml" value="0.1325" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/rectangular_circular_edge_btn.xml" value="0.1785" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/round_button.xml" value="0.1325" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/sender_box.xml" value="0.1325" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/share.xml" value="0.1325" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/drawable/slide_up.xml" value="0.1785" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/banner_item.xml" value="0.22" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/blur_photo.xml" value="0.20729166666666668" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/course_view.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/course_view_item.xml" value="0.22" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/error_text.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/feelings_section.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/fragment_chat_bot.xml" value="0.13768115942028986" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/fragment_photos.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/fragment_reels.xml" value="0.13768115942028986" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/gallery_item.xml" value="0.22" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/home_status.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/message_item.xml" value="0.13768115942028986" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/photos_details.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/photos_item_fragment.xml" value="0.13768115942028986" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/profile_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/reels_item.xml" value="0.22" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/status_cover.xml" value="0.1308876811594203" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/status_cover_item.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/top_part.xml" value="0.1" />
-        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/zoom_image.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/layout/zoom_image.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Tringapps-Admin/Desktop/Projects/CodeNWin/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17552083333333332" />
       </map>
     </option>

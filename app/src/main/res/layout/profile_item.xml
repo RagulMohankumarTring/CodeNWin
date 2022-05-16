@@ -36,7 +36,11 @@
             app:layout_constraintHorizontal_bias="0.43"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/topPart" />
-
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            layout="@layout/zoom_image" />
         <include
             layout="@layout/feelings_section"
             android:layout_width="match_parent"
