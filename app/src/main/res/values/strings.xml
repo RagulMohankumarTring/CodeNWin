@@ -3,4 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="liked">Liked by <b>KEC </b>and <b>209 others</b></string>
+    <string name="splash_screen_video_1">https://storage.googleapis.com/exoplayer-test-media-0/play.mp3</string>
+    <string name="splash_screen_video_2">https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4</string>
+    <string name="sign_up">Sign up for tring connect</string>
 </resources>

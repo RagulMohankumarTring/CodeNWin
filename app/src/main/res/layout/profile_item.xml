@@ -1,77 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-<androidx.constraintlayout.widget.ConstraintLayout
-
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/photoContent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="ProfileItem"
+            type="com.example.codenwin.adapter.TotalContentAdapter" />
+    </data>
+        
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="16dp">
+        android:layout_height="wrap_content">
 
-        <include
-            layout="@layout/top_part"
-            android:id="@+id/topPart"
-            tools:layout_editor_absoluteX="-2dp"
-            tools:layout_editor_absoluteY="48dp" />
+        <androidx.constraintlayout.widget.ConstraintLayout
 
-        <ImageView
-            android:id="@+id/postImage"
-            android:layout_width="401dp"
-            android:layout_height="240dp"
-            android:layout_marginTop="12dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/post_image"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.43"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/topPart" />
-        <include
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:visibility="gone"
-            layout="@layout/zoom_image" />
-        <include
-            layout="@layout/feelings_section"
-            android:layout_width="match_parent"
-            android:layout_height="228dp"
-            android:layout_marginTop="12dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/postImage" />
+            android:layout_height="match_parent">
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/photoContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:layout_editor_absoluteX="16dp">
+
+                <include
+                    android:id="@+id/topPart"
+                    layout="@layout/top_part"
+                    tools:layout_editor_absoluteX="-2dp"
+                    tools:layout_editor_absoluteY="48dp" />
+
+                <ImageView
+                    android:id="@+id/postImage"
+                    android:layout_width="401dp"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/post_image"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.43"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/topPart" />
+
+                <include
+                    layout="@layout/zoom_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+
+                <include
+                    layout="@layout/feelings_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="228dp"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/postImage" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
+    </androidx.cardview.widget.CardView>
+</layout><!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/photoContent">-->
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
-
-</androidx.cardview.widget.CardView>
-<!--<LinearLayout-->
-<!--android:layout_width="match_parent"-->
-<!--android:layout_height="wrap_content"-->
-<!--android:orientation="vertical"-->
-<!--app:layout_constraintEnd_toEndOf="parent"-->
-<!--app:layout_constraintStart_toStartOf="parent"-->
-<!--app:layout_constraintTop_toBottomOf="@+id/photoContent">-->
-
-<!--<include-->
-<!--    layout="@layout/feelings_section"-->
-<!--    android:layout_width="411dp"-->
-<!--    android:layout_height="228dp"-->
-<!--    tools:layout_editor_absoluteX="0dp"-->
-<!--    tools:layout_editor_absoluteY="487dp" />-->
-<!--</LinearLayout>-->
+    <!--<include-->
+    <!--    layout="@layout/feelings_section"-->
+    <!--    android:layout_width="411dp"-->
+    <!--    android:layout_height="228dp"-->
+    <!--    tools:layout_editor_absoluteX="0dp"-->
+    <!--    tools:layout_editor_absoluteY="487dp" />-->
+    <!--</LinearLayout>-->
